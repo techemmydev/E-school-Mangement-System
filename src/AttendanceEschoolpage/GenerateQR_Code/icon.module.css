@@ -1,0 +1,42 @@
+.iconscontainer {
+  width: 200px;
+  height: 150px;
+  padding: 22px 8px 22px 8px;
+  background-color: white;
+
+  /* background-color: orangered; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon_box_flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  gap: 20px;
+  justify-content: space-around;
+}
+.GenerateCode_inneer_ul {
+  list-style: none;
+}
+.iconscontainer p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 760px) {
+  .icon_container {
+    position: unset;
+  }
+  .iconscontainer {
+    height: unset;
+    display: unset;
+  }
+}

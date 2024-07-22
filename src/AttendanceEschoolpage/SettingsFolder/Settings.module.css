@@ -1,0 +1,170 @@
+.settingHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+.settingHeading h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #0a0f29;
+}
+.settingHeading h2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #0a0f29;
+}
+.settingHeading_Input {
+  /* background-color: orangered; */
+  background-color: white;
+  /* height: 70vh; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 10px;
+}
+.settingHeading_Container {
+  width: 450px;
+  height: 460px;
+  padding: 0px 0px 18.17px 0px;
+  position: relative;
+  gap: 0px;
+
+  border: 1px solid #88918b4d;
+  box-shadow: 0px 0px 29.85px 2.89px #2c323f05;
+
+  opacity: 0px;
+}
+.settingsP {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px;
+  color: #0a0f29;
+}
+.input_Details {
+  padding: 10px;
+}
+.input_Details input {
+  width: 400px;
+
+  color: #808080;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #808080;
+  outline-color: unset;
+  background-color: white;
+}
+.input_Details label {
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #0a0f29;
+  display: block;
+}
+.input_Details input::placeholder {
+  font-family: "Inter";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+  color: #dfc6c6;
+}
+.input_DetailsDropdownicon label {
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #0a0f29;
+  display: block;
+}
+.input_DetailsDropdowniconflex1 {
+  display: flex;
+  padding: 10px;
+  gap: 8px;
+}
+
+.input_DetailsDropdownicon input,
+select {
+  width: 200px;
+
+  color: #808080;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #808080;
+  outline-color: unset;
+  background-color: white;
+}
+
+.input_DetailsDropdowniconflexLocal {
+  padding: 10px;
+}
+.input_DetailsDropdowniconflexLocal select {
+  width: 400px;
+
+  color: #808080;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #808080;
+  outline-color: unset;
+  background-color: white;
+}
+.IoIosEye {
+  color: #ff8500;
+  position: absolute;
+  top: 19%;
+  left: 370px;
+}
+@media screen and (max-width: 760px) {
+  .settingHeading h2 {
+    display: none;
+  }
+  .settingHeading h1 {
+    margin-top: 30px;
+  }
+  .IoIosEye {
+    color: #ff8500;
+    position: absolute;
+    top: 31%;
+    left: 255px;
+  }
+  .settingHeading_Input {
+    /* background-color: orangered; */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .input_Details input {
+    width: 300px;
+  }
+  .input_DetailsDropdowniconflex1 {
+    flex-direction: column;
+  }
+
+  .input_DetailsDropdownicon input,
+  select {
+    width: 300px;
+  }
+  .input_DetailsDropdowniconflexLocal select {
+    width: 300px;
+  }
+  .settingHeading_Container {
+    width: unset;
+    height: unset;
+  }
+}

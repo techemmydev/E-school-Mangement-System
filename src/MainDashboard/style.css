@@ -1,0 +1,14 @@
+.flexcontainer {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fafcff;
+}
+@media screen and (max-width: 760px) {
+  .flexcontainer {
+    /* background-color: orange; */
+  }
+}

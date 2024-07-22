@@ -1,0 +1,19 @@
+.logo_container {
+  width: 257px;
+  height: 60px;
+  padding: 17px 0px 3px 0px;
+}
+
+.logo_container h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #ff8500;
+}
+/* @media screen and (max-width: 760px) {
+  .logo_container {
+    display: none;
+  }
+} */

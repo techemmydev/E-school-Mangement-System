@@ -1,0 +1,84 @@
+.table_Flex {
+  display: flex;
+
+  /* background-color: #ff4861; */
+  font-family: "Plus Jakarta Sans";
+  padding: 1rem;
+}
+.tablestyle {
+  width: 100%;
+
+  border-collapse: collapse;
+  font-family: "Plus Jakarta Sans";
+}
+.table_Flex th,
+td {
+  border: 1px solid #88918b;
+  text-align: left;
+  padding: 8px;
+}
+.table_styling th {
+  background-color: #ffffff;
+}
+.tableheading {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0a0f29;
+}
+.tabledata {
+  font-family: "Plus Jakarta Sans";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #88918b;
+}
+.tabledata button {
+  color: white;
+  border: none;
+  width: 80px;
+  font-size: 10px;
+  height: 25px;
+  padding: 0.5px 7px 0.5px 8px;
+  gap: 0px;
+  opacity: 0px;
+  text-transform: uppercase;
+}
+.table_styling {
+  background-color: #ffffff;
+
+  margin-bottom: 20px;
+}
+.table_deleteicon {
+  color: #ff4861;
+  font-size: 12px;
+}
+.evenButton {
+  background-color: #008000;
+}
+.oddButton {
+  background-color: #ce1a1a;
+}
+@media screen and (max-width: 760px) {
+  .table_Flex {
+    overflow-x: auto; /* Enable horizontal scrolling for the table */
+  }
+
+  .tablestyle {
+    width: 100%; /* Ensure the table takes full width */
+    margin-bottom: 20px;
+  }
+
+  .table_Flex th,
+  .table_Flex td {
+    font-size: 10px; /* Adjust font size for better fit on mobile */
+    padding: 6px; /* Reduce padding for better fit on mobile */
+  }
+
+  .tabledata button {
+    width: 70px; /* Adjust button width */
+    font-size: 9px; /* Adjust button font size */
+    height: 20px; /* Adjust button height */
+  }
+}

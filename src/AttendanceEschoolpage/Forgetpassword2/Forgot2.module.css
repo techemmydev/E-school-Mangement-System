@@ -1,0 +1,210 @@
+.email_Verification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: white;
+}
+
+.email_Verificationbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  padding: 2rem;
+  box-shadow: 4px 4px 8px 0px #0000000d;
+}
+
+.email_Verificationbox1 {
+  width: 420px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email_Verificationbox2 {
+  width: 420px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.email_Verification_flexinput {
+  background-color: #faf8f8;
+}
+
+.email_Verificationinputbox label {
+  display: block;
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 33.05px;
+  margin-bottom: 10px;
+}
+
+.input_Detailsemail {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #4d4d4d;
+  text-align: center;
+  padding: 10px;
+}
+
+.input_Detailsemail input {
+  width: 300px;
+  font-weight: 400;
+  border: none;
+  color: #808080;
+  padding: 10px;
+  background-color: #faf8f8;
+  outline-color: #faf8f8;
+  font-family: "Plus Jakarta Sans";
+}
+
+.input_Detailsemail input::placeholder {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 700;
+  color: #d7c6c6;
+  text-transform: capitalize;
+  font-family: "Plus Jakarta Sans";
+}
+
+.email_Verificationinputbox h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 33.05px;
+  color: #0a0f29;
+  display: block;
+}
+
+.email_Verificationinputbox p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 33.05px;
+  color: #88918b;
+}
+
+.flexinput {
+  width: 388px;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flexinput input {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  border: 0.83px solid #e4dddd;
+  outline-color: white;
+  text-align: center;
+  background-color: #faf8f8;
+  color: #0a0f29;
+}
+
+.resend {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.83px;
+  text-align: center;
+}
+
+.resend a {
+  text-decoration: none;
+  color: #ff8500;
+}
+.hidethis {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .email_Verification {
+    padding: 1rem;
+  }
+  .email_Verificationbox {
+    box-shadow: unset;
+  }
+  .email_Verificationbox {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .email_Verificationbox1,
+  .email_Verificationbox2 {
+    width: 100%;
+    height: auto;
+    display: unset;
+  }
+
+  .email_Verificationbox1 img {
+    width: 100%;
+    margin-left: 15%;
+  }
+
+  .email_Verificationinputbox {
+    padding: 5px;
+  }
+
+  .email_Verificationinputbox h1 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .email_Verificationinputbox p {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .input_Detailsemail input {
+    width: 100%;
+  }
+
+  .icon {
+    padding: 5px;
+  }
+
+  .flexinput {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .flexinput input {
+    width: 30px;
+    height: 30px;
+  }
+
+  .resend {
+    font-size: 12px;
+  }
+
+  .resend a {
+    font-size: 12px;
+  }
+
+  .hidethis {
+    display: none;
+  }
+  .showthis {
+    margin-top: 20px;
+    display: block;
+  }
+}

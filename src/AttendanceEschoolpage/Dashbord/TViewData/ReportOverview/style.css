@@ -1,0 +1,10 @@
+/* Assuming you have a container div for the BarChart */
+
+@media screen and (max-width: 760px) {
+  .bar-chart-container {
+    width: 100%; /* Ensure it takes full width of its parent */
+    max-width: 450px; /* Adjust max-width as needed */
+    /* Center align horizontally */
+    /* background-color: aqua; */
+  }
+}

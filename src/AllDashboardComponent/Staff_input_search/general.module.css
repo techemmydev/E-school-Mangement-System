@@ -1,0 +1,35 @@
+.GeneralSerach_container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.GeneralSerach_container_input input {
+  width: 300px;
+  height: 40px;
+  padding: 8.75px 206px 8.75px 40px;
+
+  border: 1px solid #ccdad1;
+  opacity: 0px;
+
+  outline-color: floralwhite;
+
+  background-color: #ffffff;
+
+  color: #babec5;
+}
+.GeneralSerach_container_input input::placeholder {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #dfc6c6;
+}
+@media screen and (max-width: 760px) {
+  .GeneralSerach_container {
+    display: unset;
+  }
+  .GeneralSerach_container_input {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,276 @@
+.login_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.login_container_innerbox {
+  width: 1190px;
+  height: 543px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.login_container_box1 {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff8500;
+}
+
+.login_container_box1_Deatils h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: white;
+}
+
+.login_container_box1_Deatils p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: center;
+  color: white;
+}
+
+.login_container_box2 {
+  width: 488px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 4px 4px 8px 0px #0000000d;
+}
+
+.inputformcontainer {
+  width: 488px;
+  height: 400px;
+  padding: 1rem;
+}
+
+.signin {
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #0a0f29;
+  margin-left: 10px;
+}
+
+.input_Details {
+  padding: 1rem;
+  position: relative;
+}
+
+.input_Details input {
+  width: 400px;
+  color: #808080;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #808080;
+  outline-color: unset;
+  background-color: #faf8f8;
+  font-family: "Plus Jakarta Sans";
+}
+
+.input_Details label {
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  font-weight: 600;
+  color: #0a0f29;
+}
+
+.input_Details input::placeholder {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #808080;
+  font-family: "Plus Jakarta Sans";
+}
+
+.forgot {
+  width: 400px;
+  margin-left: 18px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.frameInput1 {
+  width: 20px;
+  height: 20px;
+  background-color: #ff8500;
+}
+
+.frameInput2 input[type="checkbox"]:checked {
+  background-color: rgb(#d39da5);
+  border: none;
+}
+
+.frameInput2 input[type="checkbox"]:checked:after {
+  content: "\2713";
+  color: white;
+}
+
+.frameInput2 input[type="checkbox"] {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  appearance: none;
+  border-radius: 10%;
+  box-shadow: none;
+  font-size: 1em;
+}
+
+.frameInput2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.keep {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  text-align: left;
+  color: #000;
+}
+
+.already {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.alreadyLink a {
+  color: #ff8500;
+}
+
+.alreadyLink a:active {
+  color: #0bdaa6;
+}
+
+.dontHaveAnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.dontHaveAnContainer span {
+  color: #af97a3;
+}
+
+.dontHaveAnContainer a {
+  text-decoration: none;
+  color: #ca8a97;
+}
+
+.login_link {
+  text-decoration: none;
+}
+.alreadyhave {
+  display: none;
+}
+.mobile_button {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .login_container {
+    height: unset;
+    margin-top: 50px;
+  }
+  .login_container_box2 {
+    box-shadow: unset;
+  }
+  .login_container_innerbox {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .alreadyhave {
+    display: block;
+    font-family: "Plus Jakarta Sans";
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: #0a0f29;
+  }
+
+  .alreadyhave span {
+    margin-left: 3px;
+  }
+  .alreadyhave a {
+    color: #ff8500;
+  }
+  .login_container_box2 {
+    width: 100%;
+    height: auto;
+  }
+  .login_container_box1 {
+    display: none;
+  }
+  .inputformcontainer {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .input_Details input {
+    width: 100%;
+  }
+
+  .forgot {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .signin {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .welcomeButton Button {
+    width: 100%;
+    display: none;
+  }
+  .mobile_button {
+    display: inline-block;
+    border: none;
+    width: 100%;
+    background-color: #ff8500;
+    color: white;
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+  }
+  .frameInput1 {
+    width: 20px;
+    height: 20px;
+  }
+}

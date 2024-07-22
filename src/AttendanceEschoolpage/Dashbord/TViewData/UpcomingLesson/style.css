@@ -1,0 +1,92 @@
+/* .course-schedule {
+  background-color: #0a0f29;
+} */
+
+@media screen and (max-width: 760px) {
+  .course-schedule {
+    /* margin: auto; */
+
+    /* background-color: orangered; */
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .schedule-header {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .upcoming-lessons-title {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans";
+  }
+  .icon-dots {
+    color: #ff8500;
+    font-weight: bolder;
+  }
+  .view-all-courses {
+    color: #999;
+    display: flex;
+    align-items: center;
+  }
+  .view-all-courses p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+  }
+  .lesson-title h1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0a0f29;
+  }
+  .lesson-title p {
+    color: #88918b;
+    font-family: "Plus Jakarta Sans";
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .lesson-status h1 {
+    color: #ff8500;
+    font-family: "Plus Jakarta Sans";
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .lesson-status button {
+    font-family: "Plus Jakarta Sans";
+    width: 100px;
+    /* height: 21.93px; */
+    font-weight: 700;
+    padding: 3.31px 9.76px 2.61px 9.17px;
+    color: white;
+    border-radius: 3.76px;
+    border: none;
+    opacity: 0px;
+    background-color: #ff8500;
+  }
+  .upcoming-lesson {
+    margin-bottom: 5px;
+    /* width: 320px; */
+    /* margin: auto; */
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}

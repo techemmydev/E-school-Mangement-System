@@ -1,0 +1,15 @@
+.download_button_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+@media screen and (max-width: 760px) {
+  .download_button_flex {
+    flex-wrap: unset;
+    gap: 5px;
+    padding-left: 5px;
+  }
+}

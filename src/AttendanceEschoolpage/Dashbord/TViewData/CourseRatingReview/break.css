@@ -1,0 +1,45 @@
+.rating-breakdown {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.rating-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.stars {
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.stars span {
+  color: gold;
+  font-size: 20px;
+}
+
+.empty-star {
+  color: #e0e0e0;
+}
+
+.rating-bar {
+  flex-grow: 1;
+  height: 12px;
+  background-color: #e0e0e0;
+  margin: 0 10px;
+  position: relative;
+}
+
+.filled-bar {
+  height: 100%;
+  background-color: orange;
+}
+
+.percentage {
+  width: 50px;
+  text-align: right;
+}

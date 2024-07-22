@@ -1,0 +1,101 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(39, 21, 2, 0.395);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-out, slideInRight 0.3s ease-out; /* Updated to include new animation */
+}
+.navbarDaasuserbox h2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0a0f29;
+}
+.navbarDaasuserbox span {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0a0f29;
+}
+.profile {
+  margin-top: 10px;
+  border: 1px solid #88918b4d;
+  padding: 5px;
+}
+.profile h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 24px;
+  color: #0a0f29;
+}
+.modalContent {
+  width: 200px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.3s ease-out; /* Animation for the content */
+}
+.namedetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.modalContent button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff8500;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,134 @@
+.box1 {
+  width: 500px;
+  height: 350px;
+  background-color: white;
+  position: relative;
+  display: flex; /* Add this line */
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  align-items: flex-start; /* Optionally adjust as needed */
+  margin-bottom: 20px;
+}
+
+.navycirlce {
+  width: 220px;
+  height: 210px;
+  top: 63px;
+  left: 209px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #0a0f29;
+  border-radius: 200px;
+  position: absolute;
+  z-index: 1;
+  left: 20%;
+  bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 40px;
+  color: white;
+}
+.greens {
+  width: 220px;
+  height: 210px;
+  top: 63px;
+  left: 209px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #0df00d;
+  border-radius: 200px;
+  top: 23px;
+  bottom: 10%;
+  right: 50px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 22px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 40px;
+  color: white;
+}
+.grade {
+  margin-top: 20px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #0df00d; */
+  gap: 20px;
+}
+.grade1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 7px;
+  color: #88918b;
+  font-family: "Plus Jakarta Sans";
+
+  font-weight: 400;
+  line-height: 24px;
+}
+.grade2 span {
+  width: 30px;
+  height: 10px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  background-color: #0df00d;
+}
+.grade2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 7px;
+  color: #88918b;
+  font-family: "Plus Jakarta Sans";
+
+  font-weight: 400;
+  line-height: 24px;
+}
+.grade1 span {
+  width: 30px;
+  height: 10px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  background-color: #0a0f29;
+}
+@media screen and (max-width: 760px) {
+  .box1 {
+    width: 350px;
+    margin: auto;
+  }
+  .navycirlce {
+    width: 150px;
+    height: 150px;
+    font-size: 13px;
+  }
+  .greens {
+    width: 150px;
+    height: 150px;
+    left: unset;
+    font-size: 13px;
+  }
+  .greens h1 {
+    margin-left: 25px;
+  }
+  .grade {
+    width: unset;
+    margin-left: 60px;
+  }
+}

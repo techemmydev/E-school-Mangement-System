@@ -1,0 +1,99 @@
+.header_container {
+  background-color: #fafcff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  cursor: pointer;
+  /* flex-wrap: wrap; */
+}
+.inputcontainer {
+  margin-left: 2%;
+}
+.otherside_nigeria {
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.otherside_nigeria_container {
+  /* background-color: brown; */
+  margin-left: 9%;
+}
+.redback {
+  width: 7px;
+  height: 7px;
+  left: 13px;
+  opacity: 0px;
+  background-color: #0a0f29;
+  border-radius: 50%;
+  position: absolute;
+}
+.notify_container {
+  position: relative;
+}
+.navbarDaasuserbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarDaasusername h6 {
+  font-family: "Plus Jakarta Sans";
+  color: #0a0f29;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.navbarDaasusername p {
+  font-family: "Plus Jakarta Sans";
+  text-transform: capitalize;
+  color: #88918b;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.ssssssssssssssss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header_container_mobile {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .header_container {
+    display: none;
+  }
+  .inputcontainer_mobile {
+    display: none;
+  }
+  .header_container_stickers {
+    background-color: white;
+    box-shadow: 4px 4px 20px 0px #d7c6c6;
+    width: 100%;
+    /* top: 10px; */
+    position: fixed;
+    padding: 1.5rem;
+    z-index: 100;
+  }
+  .header_container_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: aqua;
+    margin-bottom: 80px;
+  }
+  .otherside_nigeria_container {
+    /* margin-left: unset;*/
+
+    /* background-color: #ff8500; */
+  }
+  .otherside_nigeria {
+    justify-content: flex-end;
+    margin-top: 10%;
+  }
+}

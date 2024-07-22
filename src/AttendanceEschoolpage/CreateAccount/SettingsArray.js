@@ -1,0 +1,45 @@
+export const acc = [
+  {
+    id: 1,
+    label: "FIRST NAME",
+    name: "firstName",
+    label1: "LAST NAME",
+    name1: "lastName",
+  },
+  {
+    id: 2,
+    label: "COMPANY NAME",
+    name: "companyName",
+    label1: "COMPANY TYPE",
+    name1: "companyType",
+  },
+  {
+    id: 3,
+    label: "PASSWORD",
+    name: "password",
+    label1: "CONFIRM PASSWORD",
+    name1: "confirmPassword",
+  },
+  {
+    id: 4,
+    label: "EMAIL",
+    name: "email",
+    label1: "PHONE",
+    name1: "phone",
+  },
+  {
+    id: 5,
+    label: "WEBSITE",
+    name: "website",
+    placeholderContent: "https://www.",
+    label1: "COUNTRY",
+    name1: "country",
+  },
+  {
+    id: 6,
+    label: "ADDRESS",
+    name: "address",
+    label1: "STATE",
+    name1: "state",
+  },
+];

@@ -1,0 +1,183 @@
+.welcomejohn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #0df00d; */
+  flex-wrap: wrap;
+}
+.welcomejohn h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-left: 25px;
+}
+.welcomejohn p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-right: 30px;
+}
+
+.container {
+  width: 100%;
+  height: 212px;
+
+  padding: 0px 18.5px 30px 12px;
+  /* background-color: orange; */
+}
+.dashboard_container1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 20px;
+}
+.dashboard_container {
+  width: 320px;
+  height: 89px;
+  padding: 15px 25px 15px 25px;
+  background-color: #ffffff;
+
+  box-shadow: 0px 0px 31px 3px #2c323f05;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+}
+.dashboard_containerh1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #88918b;
+}
+.dashboard_containerPara {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #0a0f29;
+}
+.testingspan {
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 10px;
+  color: #0df00d;
+  display: inline-block;
+}
+.dashboard_chart_container {
+  /* background-color: #0a0f29; */
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  grid-template-columns: repeat(2, 2fr);
+  padding: 1rem;
+}
+
+.dashboard_chart_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 760px) {
+  .dashboard_chart_container {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .dashboard_chart_container {
+    display: none;
+  }
+  .dashboard_chart_container2 {
+    margin-top: 10px;
+  }
+  .dashboardchart1 {
+    /* background-color: #ff8500; */
+    padding: 20px;
+  }
+  .dashboardchart2 {
+    background-color: #0a0f29;
+    margin-top: 10px;
+  }
+  .dashboardchart4 {
+    /* background-color: #0a0f29; */
+    margin-top: 10px;
+  }
+  .dashboard_chart_mobile {
+    display: block;
+  }
+  .dashboardchart_mobile {
+    width: 80%;
+  }
+  .flex_rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+  }
+  .schedule_header {
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .upcoming_lessons_title {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans";
+    color: #0a0f29;
+  }
+  .icondots {
+    color: #ff8500;
+    font-weight: bolder;
+  }
+  .viewallcourses {
+    color: #999;
+    display: flex;
+    align-items: center;
+  }
+  .viewallcourses p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+  }
+  .dashboardchart_mobile2 {
+    width: 100%;
+    padding: 20px;
+    display: block;
+
+    flex-direction: column;
+  }
+  .dashboard_container1 {
+    justify-content: center;
+
+    align-items: center;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 5px;
+  }
+  .dashboard_container {
+    width: unset;
+    justify-content: space-between;
+  }
+
+  .welcomejohn h1,
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .dashboardchart_mobile {
+    display: block;
+  }
+
+  .container {
+    height: unset;
+  }
+}

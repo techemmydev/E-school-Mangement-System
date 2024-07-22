@@ -1,0 +1,88 @@
+.Attendance_login_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Attendance_login_innercontrainer {
+  width: 800px;
+  height: 500px;
+  box-shadow: 4px 4px 20px 0px #d7c6c6;
+
+  padding: 73px 38px 73px 38px;
+
+  opacity: 0px;
+}
+.input_Details {
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+  padding: 1rem;
+
+  /* background-color: #ff8500; */
+  position: relative;
+}
+.input_Details input {
+  display: block;
+  width: 100%;
+  /* margin: 15px; */
+  color: #808080;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #808080;
+  outline-color: unset;
+  background-color: #faf8f8;
+  font-family: "Plus Jakarta Sans";
+}
+.input_Details label {
+  font-family: "Plus Jakarta Sans";
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #0a0f29;
+}
+.input_Details input::placeholder {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+  color: #808080;
+  font-family: "Plus Jakarta Sans";
+}
+.login_link {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+}
+.Attendance_login_timeandDate h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #0a0f29;
+}
+.Attendance_login_timeandDate p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #0a0f29;
+}
+@media screen and (max-width: 760px) {
+  .Attendance_login_innercontrainer {
+    box-shadow: unset;
+    height: unset;
+  }
+  .Attendance_login_container {
+    height: unset;
+    margin-top: 30px;
+  }
+}

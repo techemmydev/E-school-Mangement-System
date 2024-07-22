@@ -1,0 +1,94 @@
+.table_Flex {
+  display: flex;
+  /* background-color: #ff4861; */
+  font-family: "Plus Jakarta Sans";
+  padding: 1rem;
+}
+.table_Flex table {
+  width: 100%;
+
+  border-collapse: collapse;
+  font-family: "Plus Jakarta Sans";
+}
+.table_Flex th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.table_styling th {
+  background-color: #ffffff;
+}
+.tableheading {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0a0f29;
+}
+.tabledata {
+  font-family: "Plus Jakarta Sans";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #88918b;
+}
+.tabledata button {
+  color: white;
+  border: none;
+  width: 80px;
+  font-size: 10px;
+  height: 25px;
+  padding: 0.5px 7px 0.5px 8px;
+  gap: 0px;
+  opacity: 0px;
+  text-transform: uppercase;
+}
+.table_styling {
+  background-color: #ffffff;
+
+  margin-bottom: 20px;
+}
+.table_deleteicon {
+  color: #ff4861;
+  font-size: 12px;
+}
+.evenButton {
+  background-color: #008000;
+}
+.oddButton {
+  background-color: #ce1a1a;
+}
+@media (max-width: 760px) {
+  .table_Flex {
+    padding: 0.5rem;
+  }
+
+  .table_Flex table {
+    width: 100%;
+  }
+
+  .table_Flex th,
+  .table_Flex td {
+    font-size: 10px;
+    padding: 4px;
+  }
+
+  .tabledata button {
+    width: 60px;
+    font-size: 8px;
+    height: 20px;
+  }
+
+  .table_styling {
+    margin-bottom: 10px;
+  }
+
+  .table_deleteicon {
+    font-size: 10px;
+  }
+
+  .tableheading {
+    font-size: 10px;
+  }
+}

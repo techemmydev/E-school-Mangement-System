@@ -1,0 +1,100 @@
+.success_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.success_innercontrainer {
+  width: 500px;
+  height: 500px;
+  /* box-shadow: 4px 4px 20px 0px #d7c6c6; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
+  flex-direction: column;
+  padding: 73px 38px 73px 38px;
+  /* background-color: #0a0f29; */
+}
+.success_box {
+  width: 200px;
+  height: 200px;
+  background-color: #06ac06;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.success_mark {
+  width: 50px;
+  height: 66px;
+
+  background-image: url("/AttendanceEshImage/mark.svg");
+
+  background-position: center;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.success_innercontrainer_details h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #0a0f29;
+}
+.success_innercontrainer_details p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  font-weight: 400;
+
+  text-align: center;
+  color: #0a0f29;
+}
+@media screen and (max-width: 760px) {
+  .success_container {
+    flex-wrap: unset;
+    gap: 30px;
+  }
+
+  .success_innercontrainer {
+    width: 100%;
+    height: auto;
+    /* padding: 20px; */
+    /* background-color: orangered; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .success_box {
+    width: 150px;
+    height: 150px;
+  }
+
+  .success_mark {
+    width: 40px;
+    height: 53px;
+  }
+
+  .success_innercontrainer_details h1 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .success_innercontrainer_details p {
+    font-size: 12px;
+  }
+  /* .con {
+    margin-top: 20px;
+    width: 400px;
+    background-color: red;
+  } */
+  /* .button {
+    width: 80%;
+    max-width: 300px;
+  } */
+}

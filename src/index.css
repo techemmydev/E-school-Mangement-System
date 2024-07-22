@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.css-172kpif-MuiResponsiveChart-container > svg {
+}
+.css-xjojea-MuiStack-root > :not(style) ~ :not(style) {
+  display: none;
+}
+.css-1k2u9zb-MuiChartsAxis-root {
+  display: none;
+}
+.css-1u0lry5-MuiChartsLegend-root {
+  display: none;
+}
+.css-7acbqq-MuiLineElement-root {
+  stroke: #ff8500;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  fill: none;
+  /* 
+  -webkit-transition: opacity 0.2s ease-in, stroke 0.2s ease-in;
+  transition: opacity 0.2s ease-in, stroke 0.2s ease-in;
+  opacity: 1; */
+}
+.css-49s4wm-MuiMarkElement-root {
+  stroke: #ff8500;
+}
